@@ -14,7 +14,7 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Constants
-FLIC_TOKEN = os.getenv('FLICK_TOKEN')  # Replace with your Flic-Token
+FLIC_TOKEN = os.getenv('FLICK_TOKEN')
 UPLOAD_URL_ENDPOINT = "https://api.socialverseapp.com/posts/generate-upload-url"
 CREATE_POST_ENDPOINT = "https://api.socialverseapp.com/posts"
 VIDEOS_DIR = "videos"
