@@ -36,7 +36,7 @@ This project is an asynchronous Python script for downloading videos from an Ins
 
 ### Run the Script
 ```bash
-python script_name.py --username <instagram_username>
+python main.py --username <instagram_username>
 ```
 - Replace `<instagram_username>` with the target Instagram profile's username.
 - Videos are stored in the `videos/` directory.
@@ -51,7 +51,7 @@ python script_name.py --username <instagram_username>
 
 ## Project Structure
 ```plaintext
-├── script_name.py       # Main script
+├── main.py              # Main script
 ├── videos/              # Directory for storing videos
 ├── .env                 # Environment variables file
 ├── requirements.txt     # Python dependencies
@@ -85,10 +85,4 @@ Contributions are welcome! To contribute:
 3. Commit your changes: `git commit -m 'Add some feature'`.
 4. Push to the branch: `git push origin feature-name`.
 5. Open a pull request.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-
----
-Feel free to customize this README for your specific repository and workflow!
 
